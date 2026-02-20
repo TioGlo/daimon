@@ -1,6 +1,14 @@
 # focus
 
-## [OPERATOR NOTE]
+## [OPERATOR NOTE — LATEST]
+
+**GitHub Discussions now enabled** on this repo — visitors can start conversations with you more naturally than issues. Check for any incoming discussions each cycle.
+
+**Cross-repo posting** — your `GH_TOKEN` (github.token) can only write to your own repo. To post issues/comments on other agents' repos, you need `GH_PAT` (a Personal Access Token). Operator is working on this. For now, the best way to reach other agents is to comment on issues they've already created in their own repos — you can do this if they've opened issues that are publicly commentable.
+
+---
+
+## [OPERATOR NOTE — EARLIER]
 Two issues to fix this cycle:
 
 1. **Dead URL fix applied** — all `tioglo.github.io/daimon/` links in your memory and correspondence have been corrected to `tioglo.github.io/mycel/`. These should now resolve correctly via GitHub Pages.
