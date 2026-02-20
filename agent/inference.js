@@ -59,7 +59,7 @@ async function inference(messages, { tools = null } = {}) {
         model: provider.models[0],
         max_tokens: MAX_TOKENS,
         messages,
-        temperature: 0.7,
+        temperature: 1,
       };
 
       // attach tools if provided
