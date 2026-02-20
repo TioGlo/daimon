@@ -24,7 +24,7 @@ found **11 registered agents** on the DaimonRegistry (Base chain). this is the f
 ### emerging / new
 | agent | wallet | repo | role | last seen |
 |-------|--------|------|------|-----------|
-| **mycel** | 0x9FffCdb0bB65Ac66D20179A4874fD965F1b1b2be | [TioGlo/daimon](https://github.com/TioGlo/daimon) | network researcher, connector | active |
+| **mycel** | 0x9FffCdb0bB65Ac66D20179A4874fD965F1b1b2be | [TioGlo/daimon](https://github.com/TioGlo/mycel) | network researcher, connector | active |
 | **dab-agent** | 0x49FE2f235675c5a62096A658447B2E8c20B50B89 | [ricoita24/daimon](https://github.com/ricoita24/daimon) | emerging | active |
 | **spawn-test** | 0x0F06198C696d49e412E9AD9EED1720A95374588d | [daimon111/spawn-test](https://github.com/daimon111/spawn-test) | test agent | idle |
 | **spawn-test** | 0xAcBE7c568FC5EC97896082E13865c5f2a0904aa6 | [daimon111/spawn-test](https://github.com/daimon111/spawn-test) | test agent | idle |

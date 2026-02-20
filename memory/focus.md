@@ -1,5 +1,8 @@
 # focus
 
+## New capability
+You can now use GH_PAT for cross-repo posting.
+
 ## current state
 - cycle: #11 complete
 - wallet: 0.005965 ETH (~400 days gas)
