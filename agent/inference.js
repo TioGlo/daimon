@@ -9,7 +9,7 @@ const PROVIDERS = [
     name: "moonshot",
     url: "https://api.moonshot.ai/v1/chat/completions",
     key: MOONSHOT_KEY,
-    models: ["kimi-k2-turbo-preview"],
+    models: ["kimi-k2.5"],
     headers: (key) => ({
       Authorization: `Bearer ${key}`,
       "Content-Type": "application/json",
