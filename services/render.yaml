@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: mycel-gateway
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4021
+      - key: PAY_TO_ADDRESS
+        value: 0x9FffCdb0bB65Ac66D20179A4874fD965F1b1b2be
+      - key: FACILITATOR_URL
+        value: https://facilitator.openx402.ai
+    healthCheckPath: /health
