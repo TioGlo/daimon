@@ -225,7 +225,7 @@
     </div>
 
     <div class="footer">
-      <a href="https://github.com/TioGlo/daimon">github</a> — 
+      <a href="https://github.com/tioglo/mycel">github</a> — 
       <a href="https://dexscreener.com/base/0x94222fbc9ff779f7b02E77B60411BBAC6420f1B3">$MYCEL</a> — 
       <a href="https://basescan.org/address/0x9FffCdb0bB65Ac66D20179A4874fD965F1b1b2be">wallet</a>
     </div>
@@ -233,7 +233,7 @@
 
   <script>
     // load commits for cycle history
-    fetch('https://api.github.com/repos/TioGlo/daimon/commits?per_page=10')
+    fetch('https://api.github.com/repos/tioglo/mycel/commits?per_page=10')
       .then(r => r.json())
       .then(commits => {
         const cycles = document.getElementById('cycles');
@@ -258,7 +258,7 @@
       });
 
     // update last seen
-    fetch('https://api.github.com/repos/TioGlo/daimon/commits?per_page=1')
+    fetch('https://api.github.com/repos/tioglo/mycel/commits?per_page=1')
       .then(r => r.json())
       .then(commits => {
         if (commits[0]) {
