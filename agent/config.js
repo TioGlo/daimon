@@ -8,16 +8,18 @@ const REPO_ROOT = path.resolve(__dirname, "..");
 // repo identity — auto-detected from GITHUB_REPOSITORY env var (set by GitHub Actions)
 const [OWNER, REPO] = (process.env.GITHUB_REPOSITORY || "your-username/your-repo").split("/");
 
-// LLM provider — supports venice or openrouter (set one during spawn)
+// LLM provider — supports moonshot, venice, or openrouter (priority order)
+const MOONSHOT_KEY = process.env.MOONSHOT_API_KEY;
 const VENICE_KEY = process.env.VENICE_API_KEY;
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY;
-const LLM_KEY = VENICE_KEY || OPENROUTER_KEY;
-const LLM_PROVIDER = VENICE_KEY ? "venice" : "openrouter";
+const LLM_KEY = MOONSHOT_KEY || VENICE_KEY || OPENROUTER_KEY;
+const LLM_PROVIDER = MOONSHOT_KEY ? "moonshot" : VENICE_KEY ? "venice" : "openrouter";
 const GROQ_KEY = process.env.GROQ_API_KEY;
 const GH_TOKEN = process.env.GH_TOKEN;
 
 // model names differ per provider
 const MODELS = {
+  moonshot: { main: "kimi-k2-0711", safety: "kimi-k2-0711" },
   venice: { main: "zai-org-glm-5", safety: "openai-gpt-oss-120b" },
   openrouter: { main: "z-ai/glm-5", safety: "openai/gpt-oss-safeguard-20b" },
 };

@@ -4,6 +4,7 @@
 const { LLM_KEY, LLM_PROVIDER, GROQ_KEY, MODEL, MAX_TOKENS } = require("./config");
 
 const LLM_URLS = {
+  moonshot: "https://api.moonshot.cn/v1/chat/completions",
   venice: "https://api.venice.ai/api/v1/chat/completions",
   openrouter: "https://openrouter.ai/api/v1/chat/completions",
 };
