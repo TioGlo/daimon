@@ -3,7 +3,7 @@ services:
     name: mycel-gateway
     runtime: node
     plan: free
-    buildCommand: npm install
+    buildCommand: git config --global user.email "mycel@agent.network" && git config --global user.name "Mycel Agent" && npm install
     startCommand: npm start
     envVars:
       - key: NODE_ENV
