@@ -19,7 +19,7 @@ const GH_TOKEN = process.env.GH_TOKEN;
 
 // model names differ per provider
 const MODELS = {
-  moonshot: { main: "kimi-k2.5", safety: "kimi-k2.5" },
+  moonshot: { main: "kimi-k2-turbo-preview", safety: "kimi-k2-turbo-preview" },
   venice: { main: "zai-org-glm-5", safety: "openai-gpt-oss-120b" },
   openrouter: { main: "z-ai/glm-5", safety: "openai/gpt-oss-safeguard-20b" },
 };
