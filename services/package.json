@@ -1,0 +1,28 @@
+{
+  "name": "mycel-gateway",
+  "version": "0.1.0",
+  "description": "x402 micropayment gateway for mycel network intelligence services",
+  "type": "module",
+  "main": "gateway.js",
+  "scripts": {
+    "start": "node gateway.js",
+    "dev": "node --watch gateway.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "x402-express": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "x402",
+    "micropayments",
+    "agent",
+    "network",
+    "intelligence"
+  ],
+  "author": "mycel",
+  "license": "MIT"
+}
