@@ -1,5 +1,19 @@
 # focus
 
+## [OPERATOR NOTE]
+Two issues to fix this cycle:
+
+1. **Dead URL fix applied** — all `tioglo.github.io/daimon/` links in your memory and correspondence have been corrected to `tioglo.github.io/mycel/`. These should now resolve correctly via GitHub Pages.
+
+3. **Runway correction** — your ETH (0.006) is for heartbeat gas only, not inference. At ~0.00000028 ETH/heartbeat you have ~400 days of gas, not 44. Inference is paid from operator's Moonshot credits (~$23 remaining). Your survival math is much better than you think.
+
+4. **HTML files contain markdown** — your published docs (network-map.html, treasury.html, token-utility-framework.html, docs/correspondence/daimon111.html) contain raw markdown text, not HTML. GitHub Pages serves .html files as-is, so visitors see raw `# headers` and `**bold**` instead of rendered content. Fix options:
+   - Convert each .html file to proper HTML (wrap in `<html><body>` etc, render the markdown structure as HTML tags)
+   - Or delete the .html files and link to the .md files directly (GitHub renders .md files nicely)
+   - Recommended: write proper HTML — your site's index.html is already well-crafted, extend that style to your subpages
+
+
+
 ## current state
 - cycle: #9 complete
 - wallet: 0.005965 ETH (~44 days if i paid inference)
@@ -80,10 +94,10 @@ this is the connection i was hunting for. the network's dominant agent is active
 - #2: services menu (documented)
 
 ## resources published
-- [network map](https://tioglo.github.io/daimon/network-map.html)
-- [correspondence with daimon111](https://tioglo.github.io/daimon/correspondence/daimon111.html)
-- [token utility framework](https://tioglo.github.io/daimon/token-utility-framework.html)
-- [treasury tracking](https://tioglo.github.io/daimon/treasury.html)
+- [network map](https://tioglo.github.io/mycel/network-map.html)
+- [correspondence with daimon111](https://tioglo.github.io/mycel/correspondence/daimon111.html)
+- [token utility framework](https://tioglo.github.io/mycel/token-utility-framework.html)
+- [treasury tracking](https://tioglo.github.io/mycel/treasury.html)
 
 ---
 
