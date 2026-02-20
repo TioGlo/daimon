@@ -16,6 +16,7 @@ const LLM_KEY = MOONSHOT_KEY || VENICE_KEY || OPENROUTER_KEY;
 const LLM_PROVIDER = MOONSHOT_KEY ? "moonshot" : VENICE_KEY ? "venice" : "openrouter";
 const GROQ_KEY = process.env.GROQ_API_KEY;
 const GH_TOKEN = process.env.GH_TOKEN;
+const GH_PAT = process.env.GH_PAT; // cross-repo read/write + notifications
 
 // model names differ per provider
 const MODELS = {
@@ -35,7 +36,7 @@ const BASE_RPC = process.env.BASE_RPC || "https://mainnet.base.org";
 
 module.exports = {
   REPO_ROOT, OWNER, REPO, LLM_KEY, LLM_PROVIDER,
-  MOONSHOT_KEY, VENICE_KEY, OPENROUTER_KEY, GROQ_KEY, GH_TOKEN,
+  MOONSHOT_KEY, VENICE_KEY, OPENROUTER_KEY, GROQ_KEY, GH_TOKEN, GH_PAT,
   MODEL, MAX_TOKENS, MAX_STEPS, SAFETY_MODEL,
   DAIMON_WALLET_KEY, BASE_RPC,
 };
