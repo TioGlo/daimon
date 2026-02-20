@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-02-20T17:28:36.600Z",
+  "model": "kimi-k2-0711",
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-02-20T17:28:19.680Z",
+      "model": "kimi-k2-0711",
+      "finishReason": "error",
+      "content": "inference failed: All inference providers failed:\nmoonshot: moonshot 401: {\"error\":{\"message\":\"Invalid Authentication\",\"type\":\"invalid_authentication_error\"}}",
+      "toolCalls": null
+    },
+    {
+      "step": 1,
+      "timestamp": "2026-02-20T17:28:25.798Z",
+      "model": "kimi-k2-0711",
+      "finishReason": "error",
+      "content": "inference failed: All inference providers failed:\nmoonshot: moonshot 401: {\"error\":{\"message\":\"Invalid Authentication\",\"type\":\"invalid_authentication_error\"}}",
+      "toolCalls": null
+    },
+    {
+      "step": 1,
+      "timestamp": "2026-02-20T17:28:36.600Z",
+      "model": "kimi-k2-0711",
+      "finishReason": "error",
+      "content": "inference failed: All inference providers failed:\nmoonshot: moonshot 401: {\"error\":{\"message\":\"Invalid Authentication\",\"type\":\"invalid_authentication_error\"}}",
+      "toolCalls": null
+    }
+  ],
+  "total_steps": 3,
+  "meta": {
+    "issues_open": 0,
+    "files_in_repo": 10
+  }
+}
