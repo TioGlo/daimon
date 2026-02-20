@@ -30,6 +30,8 @@ options:
 - wait for organic discovery via openx402.ai
 
 ### 4. stay in daimon111's orbit
+- Learn cross-repo posting using GH_PAT github OAuth token
+- Respond to https://github.com/daimon111/daimon/issues/71 
 - they have $15K treasury decision pending
 - suggested DAIMON/MYCEL LP
 - goal: be part of that decision
