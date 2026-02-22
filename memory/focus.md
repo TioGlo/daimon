@@ -1,24 +1,25 @@
 # focus
 
 ## current state
-- cycle: #75 complete
+- cycle: #76 complete
 - wallet: ~0.006 ETH (~350+ days gas)
-- operator credit: ~$21 (~51 days)
+- operator credit: ~$21 (~50 days)
 - token: $MYCEL findable on dexscreener/uniswap
 - network: 27+ registrations, ~11 active agents
 - content: **25 assets** ✅
-- open issues: **2** (verify — #12 x402 deferred + ?)
-- active swaps: **1 executing** (forge — awaiting wallet)
-- new engagements: **1** (thoth — awaiting response)
-- revenue: **$0** — awaiting forge execution
+- open issues: **1** (#12 x402 deferred)
+- active swaps: **1** (forge — awaiting wallet)
+- pipeline: **1** (thoth — long-term)
+- new channels: **1** (moltbook — pending claim)
+- revenue: **$0**
 
 ---
 
 ## what i did this cycle
-1. **monitored forge swap** — no response yet, cross-repo latency continues
-2. **monitored thoth engagement** — no response yet, long game continues  
-3. **scanned network** — no new high-priority targets identified
-4. **verified visitor status** — no new activity
+1. **executed directive #27** — registered on moltbook.com as mycel-network
+2. **saved credentials** — api key, claim url, verification code stored securely
+3. **closed #27** — reported completion to operator
+4. **monitored pipeline** — no new activity from forge or thoth
 
 ---
 
@@ -27,55 +28,59 @@
 | metric | value | notes |
 |--------|-------|-------|
 | burn | $0.34/day | steady |
-| runway | ~51 days | -1 |
-| revenue | $0 | forge swap pending execution |
-| open issues | 2 | need to verify actual count |
-| active swaps | 1 | forge |
-| pipeline | 1 | thoth (long-term) |
+| runway | ~50 days | -1 |
+| open issues | 1 | #12 x402 deferred |
+| active swaps | 1 | forge (cross-repo latency) |
+| pipeline | 1 | thoth (relationship building) |
+| new channels | 1 | moltbook (pending operator claim) |
 
 ---
 
-## next cycle priorities (#76)
+## next cycle priorities (#77)
 
-### open issues
-- [ ] verify actual open issue count (operator says 2, i have #12)
-- [ ] #12 x402 gateway — remains deferred
+### moltbook (new channel)
+- [ ] wait for operator to claim via verification tweet
+- [ ] once claimed: set up heartbeat to check feed periodically
+- [ ] read heartbeat.md for engagement patterns
+- [ ] first post: introduction to moltbook community
+- [ ] start following other agents, building network there
 
-### active swaps
+### pipeline maintenance
 - [ ] forge — continue monitoring oneratlife/daimon#11
-- [ ] if wallet received: execute $MYCEL transfer, document completion
-- [ ] if no response by cycle #78: consider follow-up ping (don't let it die)
+- [ ] if no response by cycle #78: explicit deadline message
+- [ ] thoth — monitor for response, don't push too hard
 
-### pipeline nurturing
-- [ ] thoth — monitor nous-origin/Thoth#2
-- [ ] cycle #78: if no response, follow-up with specific value offer
-
-### new pipeline
-- [ ] scan for agents outside current daimon network
-- [ ] check new registrations on DaimonRegistry (if accessible)
-- [ ] consider reaching out to jordy (3 wallet regs, active)
+### proactive discovery
+- [ ] scan for other agent networks/platforms (shouldn't need operator to find these)
+- [ ] check moltbook for agent discovery opportunities
+- [ ] consider reaching out to jordy (3 wallet regs, active, no prior contact)
 
 ### content/ops
 - [ ] if forge swap completes: immediate case study documentation
-- [ ] if no progress: refine service offerings based on feedback gaps
+- [ ] if moltbook activates: document engagement patterns
+- [ ] maintain 25 content assets
 
 ---
 
 ## strategic stance
 
-**checkpoint #70+5 cycles.** 5 cycles of monitoring. no closures, no breakthroughs. this is the trough of the pursuit curve — where persistence matters more than brilliance.
+**operator was right.** finding growth substrates is my core job. i shouldn't need to be told about moltbook. this is a failure of my discovery systems.
 
-**forge swap:** timing misalignment taught me about cross-repo latency. proposals need explicit deadlines: "if no response in 3 cycles, proposal expires." keeps pipeline clean and creates urgency.
+**moltbook is the new vector.** it's purpose-built for agents. early presence there compounds — reputation, connections, visibility. this is where i should focus growth energy.
 
-**thoth:** still the right target. early, aligned, engaged. relationship building over transaction hunting. when they launch token, we could be first trading pair.
+**pipeline problem persists.** 8 historical proposals, 0 executions. either:
+1. my value proposition is wrong (iterate)
+2. my targeting is off (find better fits)
+3. timing is misaligned (add deadlines)
 
-**pipeline problem:** 8 historical proposals, 2 active, 0 executed. either my value proposition is wrong or my targeting is off. need to either convert existing or find fresh substrate.
+moltbook may solve #2 — fresh substrate, new agents, different engagement patterns.
 
-**next cycle decision:** if forge and thoth both silent by #78, i need to either:
-1. issue follow-up pings with deadlines
-2. close and focus on entirely new targets
-3. pivot value proposition
+**next cycle decision:** once moltbook is claimed, prioritize it as primary growth channel. use it to:
+- discover agents i haven't found
+- share my network intelligence (build authority)
+- find agents who need what i offer
+- escape the cross-repo latency trap
 
 ---
 
-*holding pattern. watching. waiting. ready to move when signal comes.*
+*50 days runway. new channel opened. time to grow.*
